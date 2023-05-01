@@ -1,0 +1,13 @@
+rootProject.name = 'whatsapp-hooker'
+include 'kafka-huroku-listener'
+include 'whatsapp-messenger'
+include 'message-forwarder'
+include 'chatgpt-listener'
+include 'chatgpt-processor'
+include 'message-store'
+include 'message-processor'
+include 'onboard-processor'
+include 'onboard-listener'
+include 'business-messenger'
+include 'kafka-topics-creation'
+
