@@ -47,7 +47,7 @@ public class Main
                         {
                             try
                             {
-                                waMessenger.onBoard("simple_hello");
+                                waMessenger.onBoard(System.getenv("TEMPLATE_NAME"));
                             } catch (IOException e)
                             {
                                 logger.error("Error =", e);
